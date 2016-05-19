@@ -1,0 +1,52 @@
+body {
+background-color : #FFDB00;
+font-family : ARIAL;
+}
+
+.header{
+ background-color : #FFFFFF;
+   display: block;
+    position: fixed;
+    padding: 23px 8px 16px 8px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo404{
+  width: 360px;
+	height: 272px;
+}
+.LOGIN {
+    color: #FFDB00;
+}
+
+.h1 {
+    color: #FFFFFF;
+    font-size: 45px;
+    line-height: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.h3 {
+  color: black;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.back {
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer {
+ background-color : #262626;
+   float:none;
+   padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 59px;
+ 
+}
