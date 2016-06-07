@@ -1,52 +1,87 @@
-body {
-background-color : #FFDB00;
-font-family : ARIAL;
+
+
+html,body {
+font-family : "Helvetica Neue", Helvetica, ARIAL, sans-serif;
+marging:0;
 }
 
-.header{
- background-color : #FFFFFF;
-   display: block;
-    position: fixed;
-    padding: 23px 8px 16px 8px;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
-.logo404{
-  width: 360px;
-	height: 272px;
-}
-.LOGIN {
-    color: #FFDB00;
-}
-
-.h1 {
-    color: #FFFFFF;
-    font-size: 45px;
-    line-height: 48px;
-    font-weight: bold;
+.contenue {
     text-align: center;
+    background-color : #FFDB00;
 }
 
-.h3 {
-  color: black;
-    font-size: 30px;
-    line-height: 40px;
-    font-weight: bold;
-    text-align: center;
+.contenue h1 {
+    color: #ffffff;
 }
 
-.back {
-    font-size: 20px;
-    text-align: center;
+.header {
+width: : 77px;
+overflow: hidden;
+background-color: #fff;
 }
+
+.header .logo {
+    overflow: hidden;
+    width:150px;
+    float: left;
+    margin-top: 20px;
+}
+
+.header .menu{
+    float: right;
+    overflow: hidden
+    padding-top:10px;
+}
+
+.header .menu li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header .menu ul{
+    marging-left:0;
+    webkit-padding-start:0;
+}
+
+.header .menu li a {
+    padding-bottom:5px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-decoration:none;
+    color: black;
+}
+
+.header .menu li a:hover {
+    background-color: #ccc;
+}
+
+.header .menu li:last-child a{
+    background-color: black;
+    color:#fff;
+}
+
 
 .footer {
- background-color : #262626;
-   float:none;
-   padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 59px;
- 
+    color:#fff;
+    background-color: #333;
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+.footer a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.footer li {
+    list-style-type: none;
+    
+}
+
+.colone-4{
+    width:25%;
+    float:left;
 }
