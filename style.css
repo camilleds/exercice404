@@ -1,18 +1,13 @@
 
 
 html,body {
-font-family : "Helvetica Neue", Helvetica, ARIAL, sans-serif;
-marging:0;
+    margin:0;
+    font-family : "Helvetica Neue", Helvetica, ARIAL, sans-serif;
 }
 
-.contenue {
-    text-align: center;
-    background-color : #FFDB00;
-}
-
-.contenue h1 {
-    color: #ffffff;
-}
+/*
+*Entête
+*/
 
 .header {
 width: : 77px;
@@ -27,31 +22,33 @@ background-color: #fff;
     margin-top: 20px;
 }
 
+/*
+*Menu
+*/
+
 .header .menu{
     float: right;
-    overflow: hidden
-    padding-top:10px;
 }
 
 .header .menu li{
     list-style-type: none;
     display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-.header .menu ul{
-    marging-left:0;
-    webkit-padding-start:0;
-}
-
-.header .menu li a {
+.header .menu li a{
     padding-bottom:5px;
     padding-top: 5px;
     padding-right: 25px;
     padding-left: 25px;
     text-decoration:none;
     color: black;
+}
+
+.header .menu ul{
+    margin-left:0;
+    -webkit-padding-start: 0;
 }
 
 .header .menu li a:hover {
@@ -62,6 +59,24 @@ background-color: #fff;
     background-color: black;
     color:#fff;
 }
+
+/*
+*contenue
+*/
+
+.contenue {
+    text-align: center;
+    background-color : #FFDB00;
+}
+
+.contenue h1 {
+    color: #ffffff;
+}
+
+
+/*
+*footer
+*/
 
 
 .footer {
@@ -84,4 +99,22 @@ background-color: #fff;
 .colone-4{
     width:25%;
     float:left;
+}
+
+.logo-footer{
+    margin-left:10px;
+    margin-top: 50px;
+}
+
+.footer .social{
+    margin-left:0;
+    -webkit-padding-start: 0;
+}
+
+.footer .social li {
+    display: inline;
+}
+
+.footer .social li img{
+    width:40px;
 }
